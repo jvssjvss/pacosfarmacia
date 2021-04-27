@@ -1,0 +1,34 @@
+header, main, footer{
+    width: 100vw;
+    height: 100vh;
+    align-content: center;
+}
+#header,#main, #footer{
+    width: 1440px;
+    height: 2157px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+header__menu{
+    display: flex;
+    width: 20%;
+    justify-content:space-evenly ;
+    background-color: #7DBB02;
+
+}
+
+header__menu__items{
+
+}
+.LOGO{
+
+}
+h2{
+    color: #7DBB02;
+}
+footer{
+    background-color: #7DBB02;
+}
