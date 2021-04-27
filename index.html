@@ -8,31 +8,56 @@
     <title>PACO's Drugstore</title>
 </head>
 <body>
+    <!-- Header-->
+    <!-- Logo y Nav-->
     <header id="header">
         <nav class="header__menu">
-            <a href="">Inicio</a>
-            <a href="">Productos</a>
-            <a href="">Contactar</a>
+            <a class="header__menu__items" href="">Inicio</a>
+            <a class="header__menu__items" href="">Productos</a>
+            <a class="header__menu__items" href="">Contactar</a>
         </nav>
         <img src="img/LOGOPACO.svg" class="LOGO" alt="">
 
     </header>
     <main id="main">
         <!-- Parte superior del Main-->
-        <!-- Posee imágenes grandes de los productos-->
+        <!-- Donde está el banner-->
         <section class="main__parteSuperior">
-            <picture></picture>
-            <picture></picture>
-            <picture></picture>
+            <picture>
+                <source media="(min-width:2000px)" srcset="img/banner12x.jpg">
+                <source media="(min-width:650px)" srcset="img/banner1.jpg">
+                <img src="img/banner1.jpg" alt="">
+            </picture>
+            <picture>
+                <source media="(min-width:2000px)" srcset="img/banner32x.jpg">
+                <source media="(min-width:650px)" srcset="img/banner3.jpg">
+                <img src="img/banner2.jpg" alt="">
+            </picture>
+            <picture>
+                <source media="(min-width:2000px)" srcset="img/banner22x.jpg">
+                <source media="(min-width:650px)" srcset="img/banner2.jpg">
+                <img src="img/banner3.jpg" alt="">
+            </picture>
         </section>
 
         <!-- Medio del Main-->
         <!-- Posee imágenes con sus descripciones-->
         <section class="main__parteMediana">
-            <h2>PRODUCTOS, que puedes encontrar en nuestra farmacia</h2> <button class="main__parteMediana__button">Más productos...</button>
-            <picture></picture>
-            <picture></picture>
-            <picture></picture>
+            <article class="main_parteMedian__ensenarProductos">
+                <h2>PRODUCTOS, que puedes encontrar en nuestra farmacia</h2> <button class="main__parteMediana__button">Más productos...</button>
+            </article>
+            <picture>
+                <img src="img/img_producto01.jpg" alt="">
+            </picture>
+            <picture>
+                <img src="img/img_producto02.jpg" alt="">
+            </picture>
+            <picture>
+                <img src="img/img_producto03.jpg" alt="">
+            </picture>
+            <picture>
+                <img src="img/img_producto04.jpg" alt="">
+            </picture>
         </section>
 
         <!-- Parte inferior del Main-->
@@ -40,11 +65,15 @@
         <section class="main__parteInferior">
         <h2>¿Donde nos puedes encontrar?</h2>
         </section>
+        <img src="img/mapa.jpg" alt="">
     </main>
+
     <footer id="footer">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
+        <section class="footer__iconosRedesSociales">
+            <img src="img/instagram.svg" alt="">
+            <img src="img/twitter.svg" alt="">
+            <img src="img/facebook.svg" alt="">
+        </section>
         <h6>copyright 2021 - Farmacia PACO</h6>
 
     </footer>
